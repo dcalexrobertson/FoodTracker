@@ -28,8 +28,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         Meal.registerSubclass()
         
         // Initialize Parse.
-        Parse.setApplicationId("8BJT24m01a7pBLrcRMtVYouh7GZoJ7WDAxx2dYfQ",
-            clientKey: "RZxeY30f961S8apRzRcVrV0BjPzQyC2CwxXaZmVT")
+        Parse.setApplicationId("",
+            clientKey: "")
         
         // [Optional] Track statistics around application opens.
         PFAnalytics.trackAppOpenedWithLaunchOptions(launchOptions)
